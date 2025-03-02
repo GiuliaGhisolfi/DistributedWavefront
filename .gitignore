@@ -1,0 +1,8 @@
+.vscode
+bin
+build
+-p
+src/ff
+results
+outputs
+notebooks
