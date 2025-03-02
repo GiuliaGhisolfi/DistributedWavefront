@@ -140,12 +140,12 @@ cd src/sequential_wavefront
 ## 📝 Repository Structure
 ```
 .
-├── 📂script_bash/                        # Bash scripts for testing
+├── 📂script_bash/                        # Bash scripts for running experiments
 │   ├── 📄 ff_farm_wavefront.sh
 │   ├── 📄 ff_wavefront.sh
 │   ├── 📄 mpi_wavefront.sh
 │   ├── 📄 sequential_wavefront.sh
-├── 📂 script_slurm                       # SLURM scripts for running experiments
+├── 📂 script_slurm                       # SLURM scripts for performance testing
 ├── 📂 src/                               # Source code directory
 │   ├── 📂 fastflow_wavefront/            # FastFlow-based implementation
 │   │   ├── 📄 ff_farm_wavefront.cpp
