@@ -15,7 +15,7 @@ The implementation includes:
   - **Stream parallelism**: farm model for task distribution
 - **Multi-process version** using **MPI**, designed for distributed execution on a cluster of multi-core machines.
 - **Sequential implementation** is also provided as a baseline for performance evaluation.
-
+---
 
 ## 🚀 Running Tests
 
@@ -78,7 +78,7 @@ Instead of running each test manually, you can use the provided **Bash scripts**
   ```bash
   script_bash/sequential_wavefront.sh
   ```
-
+---
 
 ## 🔬 Performance Testing with SLURM
 
@@ -105,7 +105,7 @@ sbatch scripts_slurm/test_mpi_8nodes.slurm
 sbatch scripts_slurm/test_seq.slurm
 ```
 
-## 🖥️ Running Tests with Bash Scripts
+## 🖥️ Performance Testing with Bash Scripts
 
 This section provides instructions for running performance tests using **Bash scripts**.
 
@@ -135,7 +135,7 @@ cd src/mpi_wavefront
 cd src/sequential_wavefront
 ./test_sequential.sh
 ```
-
+---
 
 ## 📝 Repository Structure
 ```
